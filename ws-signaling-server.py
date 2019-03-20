@@ -26,6 +26,6 @@ async def echo(websocket, path):
 
 
 asyncio.get_event_loop().run_until_complete(
-#    websockets.serve(echo, '0.0.0.0', int(os.getenv("PORT"))))
-    websockets.serve(echo, '0.0.0.0', 10001))
+    websockets.serve(echo, '0.0.0.0', int(os.getenv("PORT"))))
+#    websockets.serve(echo, '0.0.0.0', 10001))
 asyncio.get_event_loop().run_forever()
