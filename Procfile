@@ -1,1 +1,1 @@
-web: python ws-signaling-server.py
+worker: python ws-signaling-server.py
