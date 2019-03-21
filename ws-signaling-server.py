@@ -11,7 +11,6 @@ import websockets
 
 clients = {}
 
-
 async def echo(websocket, path):
     client_id = binascii.hexlify(os.urandom(8))
     clients[client_id] = websocket
