@@ -1,6 +1,6 @@
 {
     "name": "Simple WebRTC Signaling Server",
     "description": "simple signaling server using Websocket for punch_sctp file-transfer example",
-    "repository": "https://github.com/ryogrid/puch_sctp",
+    "repository": "https://github.com/ryogrid/punch_sctp",
     "keywords": ["sctp", "udp-hole-punching", "webrtc", "p2p", "punch_sctp"]
 }
